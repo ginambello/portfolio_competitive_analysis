@@ -1,0 +1,170 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Halcyon Tea : Tea, Teaware, and Gifts, based in San Diego, CA</title>
+<meta name="description" content="Halcyon Tea provides a variety of organic and fair trade teas along with a large selection of teaware." />
+<meta name="keywords" content="tea, teas, loose teas, halcyon tea, halcyon, white tea, green tea, black tea, pu-erh, oolong, herbal tea, scented tea, teapots, kettles, decaf tea, iced tea, organic tea, caffeine free, gormet tea, premium tea, loose leaf, teaware, teabags, san diego tea" />
+<link rel="stylesheet" type="text/css" href="_style/halcyonStyle.css" />
+<script type="text/javascript" src="_scripts/pcStyle.js"></script>
+<link rel="apple-touch-icon" href="_images/apple-touch-icon.png"/>
+
+<script language="javascript" type="text/javascript" src="_scripts/layer.js"></script>
+<script type="text/javascript">
+<!--
+
+function getTODItem(){
+
+  var imageLeftObj = document.getElementById("imageLeft");
+  var textLeftObj = document.getElementById("textLeft");
+
+  datetoday = new Date();
+	timenow=datetoday.getTime();
+	datetoday.setTime(timenow);
+	thehour = datetoday.getHours();
+	if (thehour >= 16){
+		eveningImages = new Array();
+		eveningDescriptions = new Array();
+		eveningImages[0] = "<img src='uploads/home/photos/20100104174711_shopeve1.jpg' alt='Shop Entry'>";
+		eveningDescriptions[0] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <span style=\"text-decoration: underline;\"><a href=\"../teas/index.php\" target=\"_self\">teas</a></span> and <span style=\"text-decoration: underline;\"><a href=\"../teaware/index.php\" target=\"_self\">teaware</a></span> sourced from around the world. If you have any questions whatsoever, please feel free to <span style=\"text-decoration: underline;\"><a href=\"../contact/index.php\" target=\"_self\">contact us</a></span> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull;  <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull;  <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp</strong></a><a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong></strong></a></p>";
+		eveningImages[1] = "<img src='uploads/home/photos/20110516175228_kyusgreen.jpg' alt='green tea'>";
+		eveningDescriptions[1] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <span style=\"text-decoration: underline;\"><a href=\"../teas/index.php\" target=\"_self\">teas</a></span> and <span style=\"text-decoration: underline;\"><a href=\"../teaware/index.php\" target=\"_self\">teaware</a></span> sourced from around the world. If you have any questions whatsoever, please feel free to <span style=\"text-decoration: underline;\"><a href=\"../contact/index.php\" target=\"_self\">contact us</a></span> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull;  <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull;  <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp</strong></a><a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong></strong></a></p>";
+		index = Math.floor(Math.random() * eveningImages.length);
+		display = eveningImages[index];
+
+    var description = eveningDescriptions[index];
+	} else if (thehour >= 11){
+		afternoonImages = new Array();
+		afternoonDescriptions = new Array();
+		afternoonImages[0] = "<img src='uploads/home/photos/20101120131115_cupshome.jpg' alt='Tasting Cups'>";
+		afternoonDescriptions[0] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <span style=\"text-decoration: underline;\"><a href=\"../teas/index.php\" target=\"_self\">teas</a></span> and <span style=\"text-decoration: underline;\"><a href=\"../teaware/index.php\" target=\"_self\">teaware</a></span> sourced from around the world. If you have any questions whatsoever, please feel free to <span style=\"text-decoration: underline;\"><a href=\"../contact/index.php\" target=\"_self\">contact us</a></span> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull;  <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull;  <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp</strong></a><a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong></strong></a></p>";
+		afternoonImages[1] = "<img src='uploads/home/photos/20100817173358_viewmaster.jpg' alt='viewmaster'>";
+		afternoonDescriptions[1] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <span style=\"text-decoration: underline;\"><a href=\"../teas/index.php\" target=\"_self\">teas</a></span> and <span style=\"text-decoration: underline;\"><a href=\"../teaware/index.php\" target=\"_self\">teaware</a></span> sourced from around the world. If you have any questions whatsoever, please feel free to <span style=\"text-decoration: underline;\"><a href=\"../contact/index.php\" target=\"_self\">contact us</a></span> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull;  <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull;  <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp</strong></a><a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong></strong></a></p>";
+		index = Math.floor(Math.random() * afternoonImages.length);
+		display = afternoonImages[index];
+
+    var description = afternoonDescriptions[index];
+	} else {
+		morningImages = new Array();
+		morningDescriptions = new Array();
+		morningImages[0] = "<img src='uploads/home/photos/20090821152832_shopentry2.jpg' alt='Shop Entry'>";
+		morningDescriptions[0] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <span style=\"text-decoration: underline;\"><a href=\"../teas/index.php\" target=\"_self\">teas</a></span> and <span style=\"text-decoration: underline;\"><a href=\"../teaware/index.php\" target=\"_self\">teaware</a></span> sourced from around the world. If you have any questions whatsoever, please feel free to <span style=\"text-decoration: underline;\"><a href=\"../contact/index.php\" target=\"_self\">contact us</a></span> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull; <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull; <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp<br /></strong></a></p>";
+		morningImages[1] = "<img src='uploads/home/photos/20110420231512_kyusgreen.jpg' alt='green tea'>";
+		morningDescriptions[1] = "<p><strong>Welcome to Halcyon Tea<br /></strong>We are very happy you stopped by. Enjoy browsing our curated selection of fine <a href=\"../teas/index.php\" target=\"_self\">teas</a> and <a href=\"../teaware/index.php\" target=\"_self\">teaware</a> sourced from around the world. If you have any questions whatsoever, please feel free to <a href=\"../contact/index.php\" target=\"_self\">contact us</a> anytime. Thank you!<br /><a href=\"http://blog.halcyontea.com/\" target=\"_blank\"><strong>Blog</strong></a> &bull;  <a href=\"http://www.facebook.com/pages/Halcyon-Tea/133465823396\" target=\"_blank\"><strong>Facebook</strong></a> &bull; <strong><a href=\"http://twitter.com/halcyontea\" target=\"_blank\">Twitter</a> </strong>&bull;  <a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong>Yelp</strong></a><a href=\"http://www.yelp.com/biz/halcyon-tea-san-diego\" target=\"_blank\"><strong></strong></a></p>";
+		index = Math.floor(Math.random() * morningImages.length);
+		display = morningImages[index];
+
+    var description = morningDescriptions[index];
+	}
+  imageLeftObj.innerHTML = display;
+  //alert(description);
+  textLeftObj.innerHTML = description;
+}
+
+// -->
+</script>
+</head>
+
+<body>
+<div id="container">
+	<div id="top">
+    	<div id="logo"><img src="_images/logo.gif" alt="Halcyon Tea" /></div>
+        <a id="skipNav" href="#main">Skip Navigation</a>
+<div id="accountNav">
+    <ul>
+    </ul>
+</div>
+<div id="topNav">
+<ul>
+<li><img border='0' usemap='#halcyon_nav' src='_images/_nav/nav_halcyon.gif' alt='Everyday Rituals - Our Commitment - Teas - Teaware - Tea Service - Community - About Us - Contact' /></li>
+<li><a href="http://halcyontea.com/login/index.php"><img src='_images/_nav/login.gif' alt='Login/Register' /></a></li>
+</ul>
+</div>
+<map name="halcyon_nav" id="halcyon_nav">
+<area shape="rect" coords="626,0,679,11" href="http://halcyontea.com/contact/index.php" alt="Contact" />
+<area shape="rect" coords="550,0,607,11" href="http://halcyontea.com/about_us/index.php" alt="About Us" />
+<area shape="rect" coords="462,0,531,11" href="http://halcyontea.com/community/events.php" alt="Community" />
+<area shape="rect" coords="371,0,443,11" href="http://halcyontea.com/tea_service/index.php" alt="Tea Service" />
+<area shape="rect" coords="297,0,352,11" href="http://halcyontea.com/teaware/index.php" alt="Teaware" />
+<area shape="rect" coords="250,0,278,11" href="http://halcyontea.com/teas/index.php" alt="Teas" />
+<area shape="rect" coords="128,0,231,11" href="http://halcyontea.com/our_commitment/index.php" alt="Our Commitment" />
+<area shape="rect" coords="0,0,109,11" href="http://halcyontea.com/everyday_rituals/index.php" alt="Everyday Rituals" />
+</map>
+<div id="subNav" class="home">
+<ul>
+</ul>
+</div>
+<map name="everyday_rituals_map" id="everyday_rituals_map">
+<area shape="rect" coords="253,0,286,11" href="mood.php" alt="Mood" />
+<area shape="rect" coords="188,0,240,11" href="seasons.php" alt="Seasons" />
+<area shape="rect" coords="105,0,175,11" href="time_of_day.php" alt="Time of Day" />
+<area shape="rect" coords="0,0,92,11" href="re-connection.php" alt="Re-Connection" />
+</map>
+<map name="our_commitment_map" id="our_commitment_map">
+<area shape="rect" coords="472,0,563,11" href="terms_policies.php" alt="Terms/Policies" />
+<area shape="rect" coords="381,0,459,11" href="tea_and_health.php" alt="Tea & Health" />
+<area shape="rect" coords="303,0,368,11" href="fair_trade.php" alt="Fair Trade" />
+<area shape="rect" coords="214,0,290,11" href="organic_tea.php" alt="Organic Tea" />
+<area shape="rect" coords="57,0,201,11" href="eco_and_social_principles.php" alt="Eco & Social Principles" />
+<area shape="rect" coords="0,0,44,11" href="mission.php" alt="Mission" />
+</map>
+<map name="teas_map" id="teas_map">
+<area shape="rect" coords="401,0,451,11" href="scented.php" alt="Scented" />
+<area shape="rect" coords="343,0,387,11" href="herbal.php" alt="Herbal" />
+<area shape="rect" coords="290,0,330,11" href="pu-erh.php" alt="Pu-erh" />
+<area shape="rect" coords="241,0,277,11" href="black.php" alt="Black" />
+<area shape="rect" coords="180,0,228,11" href="oolong.php" alt="Oolong" />
+<area shape="rect" coords="130,0,167,11" href="green.php" alt="Green" />
+<area shape="rect" coords="82,0,117,11" href="white.php" alt="White" />
+<area shape="rect" coords="0,0,69,11" href="staff_picks.php" alt="Staff Picks" />
+</map>
+<map name="teaware_map" id="teaware_map">
+<area shape="rect" coords="179,0,244,11" href="essentials.php" alt="Essentials" />
+<area shape="rect" coords="135,0,166,11" href="gifts.php" alt="Gifts" />
+<area shape="rect" coords="75,0,122,11" href="serving.php" alt="Serving" />
+<area shape="rect" coords="0,0,62,11" href="preparing.php" alt="Preparing" />
+</map>
+<map name="tea_service_map" id="tea_service_map">
+<area shape="rect" coords="110,0,219,11" href="tastings_and_events.php" alt="Tastings & Events" />
+<area shape="rect" coords="44,0,97,11" href="business.php" alt="Business" />
+<area shape="rect" coords="0,0,31,11" href="home.php" alt="Home" />
+</map>
+<map name="community_map" id="community_map">
+<area shape="rect" coords="203,0,232,11" href="http://blog.halcyontea.com" alt="Blog" />
+<area shape="rect" coords="55,0,190,11" href="other_things_we_love.php" alt="Other Things We Love" />
+<area shape="rect" coords="0,0,42,11" href="events.php" alt="Events" />
+</map>
+<a id="main" name="main"></a>        <div id="halcyonTea"><img src="_images/halcyon_tea.gif" alt="Halcyon Tea" /></div>
+    </div>
+    <div id="content">
+    	<div id="imageLeft"></div>
+    	<div id="imageRight"><a href="http://halcyontea.com/tea_service/product.php?id=1024&page=0"><img src="uploads/home/photos/20111223182442_12-23 garden party.jpg" alt="Garden Party" /></a></div>
+        <div id="textLeft">
+       	</div>
+        <div id="textRight">
+        	<p><a href="http://halcyontea.com/teaware/product.php?id=1093&amp;page=0" target="_self"><span style="text-decoration: underline;"><strong></strong></span></a><a href="http://halcyontea.com/tea_service/product.php?id=1024&amp;page=0" target="_self"><span style="text-decoration: underline;"><strong>Featured Tea Service: Garden Party</strong></span></a><br />There is nothing like a pot of tea on the patio with a few close  friends. Be the consummate host for any occasion with our Garden Party  set. Add a  little spice to the conversation with some Ginger Peach. Whoever is  coming over, you are sure to please any guest with a tea from this  selection.<em><br /><strong>Click on the image to see more.</strong></em></p>    	</div>
+    </div>
+</div>
+</body>
+</html>
+
+<script language="javascript">
+<!--
+
+getTODItem();
+
+// -->
+</script>
+<!-- START Google Analytics --> 
+<script type="text/javascript"> 
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+ 
+<script type="text/javascript"> 
+	var pageTracker = _gat._getTracker("UA-3518288-1");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+</script> 
+<!-- THIS IS A TEST! Cheers, G --> 
